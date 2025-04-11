@@ -1,0 +1,21 @@
+requests 
+beautifulsoup4
+  langchain
+    langchainhub 
+    langchain-community 
+
+    faiss-cpu 
+ groq 
+ python-dotenv
+ langchain
+langchain-core
+python-dotenv
+streamlit
+langchain-text-splitters
+langchain-community
+pypdf
+faiss-cpu
+groq
+langchain-groq
+langchainhub
+sentence-transformers
