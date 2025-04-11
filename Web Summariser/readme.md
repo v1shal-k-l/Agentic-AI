@@ -1,5 +1,3 @@
----
-
 # Webpage Summarizer using Groq Llama3 and HuggingFace Embeddings
 
 This is a Streamlit web app that summarizes content from a given URL using:
@@ -13,9 +11,9 @@ This is a Streamlit web app that summarizes content from a given URL using:
 
 - Input any webpage URL and get a concise summary.
 - Uses semantic search to extract relevant sections.
-- Fully local embedding generation using `sentence-transformers/all-MiniLM-L6-v2`.
-- LLM summarization using Groq's Llama3-8B model via the Groq API.
-- Clean and simple Streamlit UI.
+- Local embedding generation using `sentence-transformers/all-MiniLM-L6-v2`.
+- LLM summarization powered by Groq's Llama3-8B model.
+- Clean, responsive Streamlit UI.
 
 ## Setup Instructions
 
@@ -23,7 +21,7 @@ This is a Streamlit web app that summarizes content from a given URL using:
 
 ```bash
 git clone https://github.com/v1shal-k-l/Agentic-AI.git
-cd webpage-summarizer
+cd Agentic-AI
 ```
 
 ### 2. Install dependencies
@@ -34,11 +32,13 @@ pip install -r requirements.txt
 
 ### 3. Set up environment variables
 
-Create a `.env` file in the root directory and add your Groq API key:
+Create a `.env` file in the project root with the following:
 
 ```env
 GROQ_API_KEY=your_groq_api_key_here
 ```
+
+Make sure to never expose your API key in public repositories.
 
 ### 4. Run the app
 
@@ -48,20 +48,18 @@ streamlit run app.py
 
 ## File Structure
 
-- `app.py` - Main Streamlit application
-- `requirements.txt` - Python dependencies
-- `.env` - Environment file to store Groq API key (not included in version control)
+- `app.py` – Main Streamlit application
+- `requirements.txt` – Python dependencies
+- `.env` – Environment file (excluded from version control)
 
 ## Tech Stack
 
-- **Streamlit** - Web UI
-- **LangChain** - Chaining and prompt handling
-- **FAISS** - In-memory vector search
-- **sentence-transformers** - Text embedding
-- **Groq Llama3** - Fast and powerful LLM via API
+- **Streamlit** – Web interface
+- **LangChain** – Prompting and chaining
+- **FAISS** – Semantic vector search
+- **sentence-transformers** – Embedding generation
+- **Groq Llama3** – Fast and efficient LLM backend
 
 ## License
 
-This project is open-source and available under the MIT License.
-
----
+This project is licensed under the MIT License.
