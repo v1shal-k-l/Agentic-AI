@@ -64,7 +64,7 @@ def summarize_url(url: str) -> str:
     return response["answer"]
 
 # Main action
-if st.sidebar.button("📝 Summarize"):
+if st.sidebar.button("Summarize"):
     if not url:
         st.warning("Please enter a valid URL.")
     else:
