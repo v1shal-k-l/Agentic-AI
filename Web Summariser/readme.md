@@ -1,4 +1,3 @@
-
 ---
 
 # Webpage Summarizer using Groq Llama3 and HuggingFace Embeddings
@@ -23,7 +22,7 @@ This is a Streamlit web app that summarizes content from a given URL using:
 ### 1. Clone the repository
 
 ```bash
-git clone 
+git clone https://github.com/v1shal-k-l/Agentic-AI.git
 cd webpage-summarizer
 ```
 
