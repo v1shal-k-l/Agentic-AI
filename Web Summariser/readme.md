@@ -21,7 +21,7 @@ This is a Streamlit web app that summarizes content from a given URL using:
 
 ```bash
 git clone https://github.com/v1shal-k-l/Agentic-AI.git
-cd Agentic-AI
+cd Web Summariser
 ```
 
 ### 2. Install dependencies
