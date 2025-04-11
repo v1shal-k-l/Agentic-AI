@@ -60,6 +60,3 @@ streamlit run app.py
 - **sentence-transformers** – Embedding generation
 - **Groq Llama3** – Fast and efficient LLM backend
 
-## License
-
-This project is licensed under the MIT License.
