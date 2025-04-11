@@ -1,8 +1,5 @@
-Here's a clean and professional `README.md` file for your **Webpage Summarizer** Streamlit app using **Groq Llama3** and **HuggingFace embeddings**:
 
 ---
-
-### README.md
 
 # Webpage Summarizer using Groq Llama3 and HuggingFace Embeddings
 
